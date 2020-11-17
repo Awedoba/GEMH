@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- fav icon here -->
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" />
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,17 +11,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--  custom css   -->
     <link rel="stylesheet" href="./css/styles.css">
-
+    <link rel="stylesheet" href="./css/homepage.css">
+    <!--    <link rel="icon" type="image/png" href="/favicon.png"/>-->
     <title>GEMH</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-seethrough ">
+        <a href="#" class="navbar-brand">
+            <img src="./images/GEMH%20LOGO.png" height="60" alt="GEMH">
+        </a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto navbar-right">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Services</a>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Departments</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Administration</a>
+                        <a href="#" class="dropdown-item">Pharmacy</a>
+                    </div>
+                </div>
+
+                <a href="#" class="nav-item nav-link">Media</a>
+                <a href="#" class="nav-item nav-link">About GEMH</a>
+                <a href="#" class="nav-item nav-link">Contact GEMH</a>
+                <!--            <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>-->
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="hero d-flex align-items-center justify-content-center">
+        <div class="container-fluid  text-center hero-content ">
+
+            <h1 class="hero-title">we care about your <span class="health">health</span></h1>
+
+            <p class="hero-p">GEMH, Where the best medical proffesionals call home</p>
+
+            <button type="button" class="btn rounded-0 btn-primary btn-lg btn-learn-more">Learn More</button>
+
+        </div>
+    </section>
+    <section class="services text-center">
+        <h3 class="service-title ">Our Services</h1>
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                        <div class="card m-2"style="height: 250px">
+                            <img class="card-img-top" src="/images/Emergency-room.jpg"
+                             alt="Card image cap" style="height: 70%">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="card m-2" style="height: 250px">
+                            <img class="card-img-top" src="/images/X%20ray.jpg" alt="Card image cap"style="height: 70%">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="card m-2 " style="height: 250px">
+                            <img class="card-img-top" src="/images/Emergency-room.jpg" alt="Card image cap" style="height: 70%">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="card m-2" style="height: 250px">
+                            <img class="card-img-top" src="/images/surgry.jpg" alt="Card image cap" style="height: 70%">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn rounded-0 btn-primary btn-lg btn-view-more m-5">View More</button>
+    </section>
+    <section class="why-us text-center">
+       <h3 class="why-us-title">Why Choose Us</h3>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    lorem
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="image-container">
+                        <img src="..." alt="image of GEMH">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-    
-  </body>
-</html>
+
+</body></html>

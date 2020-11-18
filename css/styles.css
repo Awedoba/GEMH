@@ -1,16 +1,69 @@
-*{
-    
-}
+* {}
+
 @font-face {
-  font-family: 'Roboto', sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    
-  font-family: 'Montserrat', sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
 }
 
 /*naviation*/
-.navbar-right{
+#nav{
+   box-shadow: 0 0px 14px rgba(0,0,0,0.25);
+    transition: background-color .3s;
+    transition-timing-function: ease-in;
+}
+.navbar-right {
     font-family: Roboto;
-    
+
+}
+
+
+/*footer*/
+.footer {
+    background-color: #0F2739;
+    color: #FFFFFF;
+}
+
+.footer-contant-titles {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer-end {
+    background-color: #182E3E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-cpy {
+    font-family: Roboto;
+    font-size: 1rem;
+}
+
+.footer-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     font-family: Roboto;
+/*    text-align: justify;*/
+}
+.hours{
+    color: aqua;
+    text-align: left;
+}
+
+/*responsive*/
+@media screen and (max-width: 800px) {
+    .footer {
+    text-align: center;
+    }
+    .footer-contact{
+        text-align: justify;
+    }
+    .footer-address,.footer-numbers,.footer-email{
+        margin-left: 5rem;
+    }
 }

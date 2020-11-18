@@ -1,3 +1,13 @@
+/* ------------------------- */
+.section-title{
+    color: #2A9965;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+/* ------------------------- */
 /*hero*/
 .bg-seethrough{
     background-color: rgba(255, 255, 255, 0.3);
@@ -13,7 +23,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
 }
 .hero-content{
     color: white;
@@ -46,27 +56,55 @@
     background-color: rgba(239, 239, 239, 0.5); 
 /*    clip-path: polygon(0 0,100% 0,100% 75%,0 100%);*/
     border-bottom-right-radius: 30%;
-    padding-bottom: 1arem;
-}
-.service-title{
-    color: #2A9965;
-    text-decoration: underline;
-     font-family: Montserrat;
-    font-weight: 700;
-    padding: 2rem;
-}
-/*why us*/
-.why-us-title{
-    color: #2A9965;
-    text-decoration: underline;
-     font-family: Montserrat;
-    font-weight: 700;
-    padding: 2rem;
+    padding-bottom: 1rem;
 }
 
-/**/
-/*
-.hero h5 {
-  color:white;
-  text-shadow:2px 2px #333;
-}*/
+/*why us*/
+.why-us{
+    padding-bottom: 2rem;
+}
+
+/*our team*/
+.our-management-team{
+    padding-bottom: 2rem;
+}
+
+.team-card{
+    background-image: url('/images/Emergency-room.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relativere;
+/*    background-attachment: fixed;*/
+}
+.team-detail{
+/*    margin: 180px 10px 10px 10px;*/
+    height: 50px;
+    bottom: 0; 
+    width: 95%; 
+    margin:5px ;
+    padding: 5px;
+    background-color: aliceblue;
+    position: absolute;
+}
+.team-card-title{
+    font-family: Montserrat;
+    margin: 0px;
+}
+/*partners*/
+.partners{
+    background-color: rgba(239, 239, 239, 0.5);
+    padding-bottom: 2rem;
+}
+/*responsive*/
+@media screen and (max-width: 800px) {
+    .services {
+    border-bottom-right-radius: 10%;
+    }
+    
+}
+/*navbar scroll*/
+.shrink {
+    background-color: #FFFFFF;
+}
+

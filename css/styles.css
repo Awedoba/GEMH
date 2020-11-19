@@ -24,6 +24,7 @@
 .footer {
     background-color: #0F2739;
     color: #FFFFFF;
+/*    padding: 0 5rem;*/
 }
 
 .footer-contant-titles {
@@ -54,11 +55,24 @@
     color: aqua;
     text-align: left;
 }
+/*jombo-title*/
+.jumbotron-fluid{
+    background-color: #2A9965;
+    text-align: center;
+}
+.jumbo-title{
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+/*    padding: 2rem;*/
+}
 
 /*responsive*/
 @media screen and (max-width: 800px) {
     .footer {
     text-align: center;
+    padding: 0;
     }
     .footer-contact{
         text-align: justify;

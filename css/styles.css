@@ -1,30 +1,40 @@
-* {}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 @font-face {
     font-family: 'Roboto', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
     font-family: 'Montserrat', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
 }
 
+
 /*naviation*/
-#nav{
-   box-shadow: 0 0px 14px rgba(0,0,0,0.25);
+
+#nav {
+    /* box-shadow: 0 0px 14px rgba(0, 0, 0, 0.25); */
     transition: background-color .3s;
     transition-timing-function: ease-in;
 }
+
 .navbar-right {
     font-family: Roboto;
+}
 
+.jumbo-title {
+    text-transform: uppercase;
 }
 
 
 /*footer*/
+
 .footer {
     background-color: #0F2739;
     color: #FFFFFF;
-/*    padding: 0 5rem;*/
+    /*    padding: 0 5rem;*/
 }
 
 .footer-contant-titles {
@@ -48,36 +58,74 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-     font-family: Roboto;
-/*    text-align: justify;*/
+    font-family: Roboto;
+    /*    text-align: justify;*/
 }
-.hours{
+
+.footer-ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.hours {
     color: aqua;
     text-align: left;
 }
+
+
 /*jombo-title*/
-.jumbotron-fluid{
+
+.jumbotron-fluid {
     background-color: #2A9965;
     text-align: center;
 }
-.jumbo-title{
+
+.jumbo-title {
     font-family: Montserrat;
     font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
-/*    padding: 2rem;*/
+    /*    padding: 2rem;*/
 }
 
+
+/*title*/
+
+.title {
+    color: #2A9965;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 2rem;
+    text-align: center
+}
+
+
+/*btn*/
+
+.btn {
+    transition: transform .15s;
+}
+
+.btn:hover {
+    transform: scale(1.2) perspective(1px);
+}
+
+
 /*responsive*/
+
 @media screen and (max-width: 800px) {
     .footer {
-    text-align: center;
-    padding: 0;
+        text-align: center;
+        padding: 0;
     }
-    .footer-contact{
+    .footer-contact {
         text-align: justify;
     }
-    .footer-address,.footer-numbers,.footer-email{
+    .footer-address,
+    .footer-numbers,
+    .footer-email {
         margin-left: 5rem;
     }
 }

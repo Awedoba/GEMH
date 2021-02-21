@@ -5,3 +5,23 @@
 .service{
     margin-top: 12vh;
 }
+.nav-bordered{
+    border: 1px solid #707070;
+}
+.nav-bordered>a{
+    color: #707070;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.nav-bordered>a:hover{
+    color: #000;
+}
+a.active.nav-link-tab{
+    background-color: #000!important;
+    border:0;
+}
+
+li a.active{
+/*    background-color: #000;*/
+    color: #2A9965 !important;
+}

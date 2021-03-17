@@ -33,13 +33,10 @@ li a.active {
 }
 
 .img-container {
-    height: 400px;
-    width: 100%;
+    padding-bottom: 2rem;
 }
 
 .img-container img {
-    width: 100% !important;
-    height: 400px;
-    object-fit: cover;
-    object-position: center;
+    max-width: 100%;
+    height: auto;
 }

@@ -33,10 +33,19 @@ li a.active {
 }
 
 .img-container {
+    max-height: 400px;
+    max-width: 100%;
+    overflow: hidden;
     padding-bottom: 2rem;
 }
 
 .img-container img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    img-container {
+        height: auto;
+    }
 }

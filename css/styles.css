@@ -14,18 +14,16 @@
 
 /*naviation*/
 
-#nav {
-    /* box-shadow: 0 0px 14px rgba(0, 0, 0, 0.25); */
-    transition: background-color .3s;
-    transition-timing-function: ease-in;
-}
-
 .navbar-right {
     font-family: Roboto;
 }
 
 .jumbo-title {
     text-transform: uppercase;
+}
+
+.head {
+    margin-top: 12vh;
 }
 
 

@@ -2,3 +2,18 @@
     box-shadow: 0 0px 14px rgba(0, 0, 0, 0.25);
     background-color: #FFFFFF;
 }
+
+.contact-address {
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.contact-form {
+    padding-left: 48px;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-form {
+        padding-left: 0!important;
+    }
+}

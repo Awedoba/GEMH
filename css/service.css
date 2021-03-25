@@ -1,6 +1,6 @@
 #nav {
     box-shadow: 0 0px 14px rgba(0, 0, 0, 0.25);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .head {
@@ -23,13 +23,13 @@
 }
 
 a.active.nav-link-tab {
-    background-color: #2A9965!important;
+    background-color: #2a9965 !important;
     border: 0;
 }
 
 li a.active {
     /*    background-color: #000;*/
-    color: #FFF!important;
+    color: #fff !important;
 }
 
 .img-container {

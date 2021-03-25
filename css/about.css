@@ -1,0 +1,13 @@
+#nav {
+    box-shadow: 0 0px 14px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}
+
+.mission,
+.vision,
+.core-value {
+    text-align: center;
+}
+
+
+/* .vision {} */

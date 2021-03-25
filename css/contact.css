@@ -1,6 +1,6 @@
 #nav {
     box-shadow: 0 0px 14px rgba(0, 0, 0, 0.25);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .contact-address {
@@ -12,8 +12,86 @@
     padding-left: 48px;
 }
 
+
+/* social icons */
+
+.social-icon .fa {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px !important;
+    line-height: 1;
+    font-size: 14px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    color: #fff;
+    background: none;
+}
+
+.social-icon:hover .fa {
+    opacity: 0.8;
+}
+
+.social-icon .fa-facebook {
+    background-color: #3b5998;
+}
+
+.social-icon .fa-twitter {
+    background-color: #00aced;
+}
+
+.social-icon .fa-youtube {
+    background-color: #bb0000;
+}
+
+.social-icon-large {
+    margin-right: 20px;
+}
+
+.social-icon-large .fa {
+    font-size: 25px;
+    background: transparent;
+    color: #000;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px !important;
+    line-height: 1;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.social-icon-large:hover .fa {
+    color: #fff;
+}
+
+.social-icon-large:hover .fa-facebook {
+    background-color: #3b5998;
+}
+
+.social-icon-large:hover .fa-twitter {
+    background-color: #00aced;
+}
+
+.social-icon-large:hover .fa-youtube {
+    background-color: #bb0000;
+}
+
+.btn-round {
+    border-radius: 4px !important;
+}
+
+.btn.btn-large i {
+    font-size: 24px;
+}
+
+
+/* social icons end*/
+
 @media screen and (max-width: 800px) {
     .contact-form {
-        padding-left: 0!important;
+        padding-left: 0 !important;
     }
 }

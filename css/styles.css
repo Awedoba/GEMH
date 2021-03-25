@@ -5,10 +5,10 @@
 }
 
 @font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    font-family: 'Montserrat', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+    font-family: "Roboto", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    font-family: "Montserrat", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
 }
 
 
@@ -26,23 +26,36 @@
     margin-top: 12vh;
 }
 
+.card {
+    border: none;
+}
+
+.section-title {
+    color: #2a9965;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+
 
 /*footer*/
 
 .footer {
-    background-color: #0F2739;
-    color: #FFFFFF;
+    background-color: #0f2739;
+    color: #ffffff;
     /*    padding: 0 5rem;*/
 }
 
 .footer-contant-titles {
     font-family: Montserrat;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .footer-end {
-    background-color: #182E3E;
+    background-color: #182e3e;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -74,7 +87,7 @@
 /*jombo-title*/
 
 .jumbotron-fluid {
-    background-color: #2A9965;
+    background-color: #2a9965;
     text-align: center;
 }
 
@@ -82,7 +95,7 @@
     font-family: Montserrat;
     font-size: 3rem;
     font-weight: 700;
-    color: #FFFFFF;
+    color: #ffffff;
     /*    padding: 2rem;*/
 }
 
@@ -90,20 +103,20 @@
 /*title*/
 
 .title {
-    color: #2A9965;
+    color: #2a9965;
     text-decoration: underline;
     font-family: Montserrat;
     font-size: 1.8rem;
     font-weight: 700;
     padding: 2rem;
-    text-align: center
+    text-align: center;
 }
 
 
 /*btn*/
 
 .btn {
-    transition: transform .15s;
+    transition: transform 0.15s;
 }
 
 .btn:hover {

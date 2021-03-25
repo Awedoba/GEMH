@@ -44,6 +44,11 @@ li a.active {
     height: auto;
 }
 
+.nav-fill .nav-item,
+.nav-fill>.nav-link {
+    text-align: left !important;
+}
+
 @media screen and (max-width: 800px) {
     img-container {
         height: auto;

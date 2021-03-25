@@ -17,15 +17,48 @@
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+
+/* linear-gradient( to right bottom, rgba(42, 38, 168, 0.25), rgba(42, 38, 168, 0.25)) */
+
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient( to right bottom, rgba(42, 38, 168, 0.25), rgba(42, 38, 168, 0.25)), url("../images/hero.jpg");
+    /* background-image: url("../images/hero.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /*  background-attachment: fixed;*/
 }
+
+
+/* carosel images */
+
+.image-1 {
+    height: 100vh;
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-2 {
+    height: 100vh;
+    background-image: url("/images/media/8F5A7504.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-3 {
+    height: 100vh;
+    background-image: url("/images/media/8F5A7508.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* carosel images end*/
 
 .hero-content {
     color: white;
@@ -88,7 +121,7 @@
 }
 
 .why__us__image-container {
-    background: url(/images/hero.jpg);
+    background: url(/images/why.jpg);
     border-top-right-radius: 25%;
     background-repeat: no-repeat;
     background-position: center;

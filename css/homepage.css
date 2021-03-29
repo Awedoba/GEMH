@@ -35,7 +35,7 @@
 
 .image-1 {
     height: 100vh;
-    background-image: url("../images/hero.jpg");
+    background-image: linear-gradient( to right bottom, rgba(42, 38, 168, 0.25), rgba(42, 38, 168, 0.25)), url("../images/hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,7 +43,7 @@
 
 .image-2 {
     height: 100vh;
-    background-image: url("/images/media/8F5A7504.jpg");
+    background-image: linear-gradient( to right bottom, rgba(42, 38, 168, 0.25), rgba(42, 38, 168, 0.25)), url("/images/media/8F5A7504.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,7 +51,7 @@
 
 .image-3 {
     height: 100vh;
-    background-image: url("/images/media/8F5A7733.jpg");
+    background-image: linear-gradient( to right bottom, rgba(42, 38, 168, 0.25), rgba(42, 38, 168, 0.25)), url("/images/media/8F5A7733.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

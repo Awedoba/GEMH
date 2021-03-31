@@ -43,7 +43,7 @@
 
 .image-2 {
     height: 100vh;
-    background-image: url("/images/media/8F5A7504.jpg");
+    background-image: url("/images/media/first_anniversary/8F5A7504.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,7 +51,7 @@
 
 .image-3 {
     height: 100vh;
-    background-image: url("/images/media/8F5A7733.jpg");
+    background-image: url("/images/media/first_anniversary/8F5A7733.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -59,7 +59,7 @@
 
 .image-4 {
     height: 100vh;
-    background-image: url("../images/hero.jpg");
+    background-image: url("/images/hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

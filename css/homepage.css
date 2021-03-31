@@ -59,7 +59,7 @@
 
 .image-4 {
     height: 100vh;
-    background-image: url("/images/hero.jpg");
+    background-image: url("/images/https___cdn.cnn.com_cnnnext_dam_assets_201225172423-20201228-covid-mask-illustration.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -67,6 +67,11 @@
 
 
 /* carosel images end*/
+
+.fighting_covid {
+    color: #2a9965;
+    font-size: 8rem;
+}
 
 .hero-content {
     color: white;

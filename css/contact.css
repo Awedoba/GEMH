@@ -45,6 +45,10 @@
     background-color: #bb0000;
 }
 
+.social-icon .fa-instagram {
+    background-color: #000;
+}
+
 .social-icon-large {
     margin-right: 20px;
 }
@@ -77,6 +81,10 @@
 
 .social-icon-large:hover .fa-youtube {
     background-color: #bb0000;
+}
+
+.social-icon-large:hover .fa-instagram {
+    background-color: #272525;
 }
 
 .btn-round {

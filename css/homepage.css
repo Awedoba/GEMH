@@ -33,7 +33,7 @@
 
 /* carosel images */
 
-.image-1 {
+.image-4 {
     height: 100vh;
     background-image: url("/images/hero.jpg");
     background-repeat: no-repeat;
@@ -57,9 +57,9 @@
     background-size: cover;
 }
 
-.image-4 {
+.image-1 {
     height: 100vh;
-    background-image: url("/images/https___cdn.cnn.com_cnnnext_dam_assets_201225172423-20201228-covid-mask-illustration.jpg");
+    background-image: url("/images/GEMH_Gate.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

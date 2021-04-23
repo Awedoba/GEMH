@@ -69,13 +69,13 @@
 } */
 
 .mainflip {
-    -webkit-transition: 1s;
+    /* -webkit-transition: 1s;
     -webkit-transform-style: preserve-3d;
     -ms-transition: 1s;
     -moz-transition: 1s;
     -moz-transform: perspective(1000px);
     -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d; */
     transition: 1s;
     transform-style: preserve-3d;
     position: relative;
@@ -83,14 +83,13 @@
 
 .frontside {
     position: relative;
-    -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
+    /* -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg); */
     z-index: 2;
     margin-bottom: 30px;
 }
 
-
-/* .backside {
+.backside {
     position: absolute;
     top: 0;
     left: 0;
@@ -103,7 +102,7 @@
     -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
     -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
     box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-} */
+}
 
 .frontside,
 .backside {
@@ -146,6 +145,14 @@
 
 
 /* team cards end */
+
+.bg__image__rotate {
+    padding-top: 1rem;
+    background-image: linear-gradient( 0deg, rgba(255, 255, 255, 0.397), rgba(216, 216, 216, 0.3)), url(/images/departments/dep_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
 /* .vision {} */

@@ -443,7 +443,7 @@
                     <div class="footer-numbers pb-2">
                         <div class="row">
                             <div class="col-2 footer-icon">
-                                <img class="svg_image" src="./images/icons/Icon%20awesome-phone-alt.svg" alt="phone numbers" />
+                                <img class="svg_image" src="/images/icons/Icon%20awesome-phone-alt.svg" alt="phone numbers" />
                             </div>
                             <div class="col footer-contact">
                                 <ul class="footer-ul">
@@ -457,7 +457,7 @@
                         <!--                        <div class="container-fluid">-->
                         <div class="row">
                             <div class="col-2 footer-icon">
-                                <img style="width: 2.5rem; height: 2.5rem" src="/images/icons/Icon%20material-location-on.svg" alt="location" />
+                                <img class="svg_image" src="/images/icons/Icon%20material-location-on.svg" alt="location" />
                             </div>
                             <div class="col footer-contact">
                                 <ul class="footer-ul">
@@ -469,13 +469,28 @@
                                 </ul>
                             </div>
                         </div>
+                        <!--                        </div>-->
+                    </div>
+                    <div class="footer-numbers pb-2">
+                        <div class="row">
+                            <!-- <div class="col-2 footer-icon">
+                                <img class="svg_image" src="./images/icons/Icon%20awesome-phone-alt.svg" alt="phone numbers" />
+                            </div> -->
+                            <!-- <div class="col footer-contact">
+                                <ul class="footer-ul">
+                                    <li>+233 XX XXX XXXX</li>
+                                    <li>+233 XX XXX XXXX</li>
+                                </ul>
+                            </div> -->
+                        </div>
                     </div>
                     <div class="footer-email pb-2 footer-icon">
                         <div class="row">
                             <div class="col-2">
-                                <img style="width: 2.5rem; height: 2.5rem" src="/images/icons/Icon%20material-email.svg" alt="email" />
+                                <img class="svg_image" src="/images/icons/Icon%20material-email.svg" alt="email" />
                             </div>
                             <div class="col footer-contact">
+                                <a href= "mailto: gaeastmunicipalhospital@gmail.com">Send Email</a>
                                 gaeastmunicipalhospital@gmail.com
                             </div>
                         </div>
@@ -484,9 +499,7 @@
                 <div class="col-sm-12 col-md-3 pt-2">
                     <h4 class="footer-contant-titles">Departments</h4>
                     <ul class="footer-ul">
-                        <li>
-                            <a href="/departments/hass.html">Health Administration</a>
-                        </li>
+                        <li><a href="/departments/hass.html">Health Adminstration</a></li>
                         <li><a href="/departments/nursing.html">Nursing</a></li>
                         <li><a href="/departments/pharmacy.html">Pharmacy</a></li>
                         <li><a href="/departments/finance.html">Finance</a></li>
@@ -499,6 +512,7 @@
                 <div class="col-sm-12 col-md-3 pt-2">
                     <h4 class="footer-contant-titles">Working Hours</h4>
                     <ul class="footer-ul">
+                        <li>All days of the week</li>
                         <!-- <li>Monday <span class="hours">24/7</span></li>
                         <li>Tuesday <span class="hours">24/7</span></li>
                         <li>Wednesday <span class="hours">24/7</span></li>
@@ -506,19 +520,11 @@
                         <li>Friday <span class="hours">24/7</span></li>
                         <li>Saturday <span class="hours">24/7</span></li>
                         <li>Sunday <span class="hours">24/7</span></li> -->
-                        <li>All days of the week</li>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-3 pt-2">
                     <h4 class="footer-contant-titles">Visiting Hours</h4>
                     <ul class="footer-ul">
-                        <!-- <li>Monday <span class="hours">12:00pm to 1:30pm</span></li>
-                        <li>Tuesday <span class="hours">12:00pm to 1:30pm</span></li>
-                        <li>Wednesday <span class="hours">12:00pm to 1:30pm</span></li>
-                        <li>Thursday <span class="hours">12:00pm to 1:30pm</span></li>
-                        <li>Friday <span class="hours">12:00pm to 1:30pm</span></li>
-                        <li>Saturday <span class="hours">12:00pm to 1:30pm</span></li>
-                        <li>Sunday <span class="hours">12:00pm to 1:30pm</span></li> -->
                         <li>All days of the week</li>
                         <li>Morning <span class="hours">6:00am to 7:00am</span></li>
                         <li>Evening <span class="hours">4:30pm to 5:30pm</span></li>
@@ -529,34 +535,15 @@
         <div class="container-fluid text-center footer-end">
             <h5 class="footer-cpy">
                 <strong>Copyright Ga-East Municipal Hospital &copy;
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-          All Right Reserved.</strong><br>
+                    <script>
+                      document.write(new Date().getFullYear());</script>All Rights Reserved.</strong><br>
           <strong>© Severin & Alex</strong>
             </h5>
         </div>
     </footer>
-    <!--some active backgrround -->
-    <script>
-        $(document).ready(function() {
-            // executes when HTML-Document is loaded and DOM is ready
-
-            if (location.hash !== "")
-                ('a[href="' + location.hash + '"]').tab("show");
-            return $('a[data-toggle="tab"]').on("shown", function(e) {
-                return (location.hash = $(e.target).attr("href").substr(1));
-            });
-
-            // document ready
-        });
-    </script>
-
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
 </body>
 
 </html>

@@ -65,13 +65,14 @@
     background-size: cover;
 }
 
-.image-5{
+.image-5 {
     height: 100vh;
     background-image: url("/images/Header.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 
 /* .image-6{
     height: 100vh;
@@ -81,13 +82,14 @@
     background-size: cover;
 } */
 
-.image-7{
+.image-7 {
     height: 100vh;
     background-image: url("/images/IMG-20211112-WA0025.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 
 /* carosel images end*/
 
@@ -177,6 +179,23 @@
 .partners {
     background-color: rgba(239, 239, 239, 0.5);
     padding-bottom: 2rem;
+}
+
+.slick-prev {
+    left: 25px !important;
+    background: #2a9965 !important;
+    border-radius: 50%;
+}
+
+.slick-next {
+    right: 25px !important;
+    background: #2a9965 !important;
+    border-radius: 50%;
+}
+
+.partners__logo .slick-slide {
+    height: 150px;
+    margin: 20px;
 }
 
 
